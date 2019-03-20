@@ -1,0 +1,113 @@
+.App {
+  margin: auto;
+  padding-left: 1px;
+  padding-right: 50px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-column-gap: 20px;
+  grid-template-rows: 1fr 2fr 3fr 2fr 1fr;
+  grid-row-gap: 20px;
+  justify-items: stretch;
+  align-items: stretch;
+  height: 100vh;
+  max-width: 1600px;
+  width: 100%;
+ color: darkslategray; 
+
+}
+
+
+.App-header {
+  grid-column: 1/-1;
+  color:white;
+  text-align: center;
+  font-size: 2.4em;
+  background-color: purple;
+  font-family: bold;
+  
+}
+
+.featuredPost {
+  grid-column: 1/1;
+  grid-row: 2/3;
+}
+
+.spotifyPlayer {
+grid-column: 2/3;
+grid-row: 2/3;
+
+}
+
+.otherPosts {
+  grid-column: 1/1;
+  grid-row-start: 3;
+}
+
+.footer {
+  grid-column: 1/-1;
+  grid-row-start: 5;
+  color: black;
+  font-size: 25px;
+  font-family: awesome;
+  margin-left: 5  
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+@media only screen and (max-width: 800px) {
+
+.App {
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 2fr 2fr 1fr;
+  grid-row-gap: 20px;
+  justify-items: stretch;
+  align-items: stretch;
+  height: auto;
+  /*height: 100vh;*/
+  max-width: 1600px;
+  overflow: auto;
+}
+
+.App-header {
+  grid-column: 1/-1;
+  grid-row: 1/1;
+  display: flex;
+  justify-content: center
+}
+
+.featuredPost {
+  grid-column: 1/-1;
+  grid-row: 2/3;
+
+}
+
+.spotifyPlayer {
+grid-column: 1/1;
+grid-row: 3/4;
+}
+
+.otherPosts {
+  grid-column: 1/1;
+  grid-row: 4/5;
+  
+}
+
+.footer {
+  grid-column: 1/1;
+  grid-row: 5/6;
+  color:blue;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+}

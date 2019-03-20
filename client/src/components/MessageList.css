@@ -1,0 +1,17 @@
+.message-list {
+    background-color: white;
+    height: 200px;
+    margin-top: 0px;
+}
+
+.message {
+    margin: 15px 0;
+}
+
+.message div:nth-child(1) {
+    font-size: 11px;
+    color: var(--main-text-color);
+    opacity: 0.9;
+    margin-bottom: 6px;
+}
+

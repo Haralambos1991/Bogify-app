@@ -1,0 +1,14 @@
+.SpotifyContainer {
+    height: 100%;
+    max-width:800px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    justify-content: stretch;
+    margin-right: -20px;
+    margin-top: -20px;
+    font-weight: bold;
+    color: black;
+    
+}

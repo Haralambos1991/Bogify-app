@@ -1,0 +1,65 @@
+.FeaturedPost {
+	height: 100%;
+	display: flex;
+	align-items: flex-start;
+	margin-top: -20px;
+	background-image:  url("../images/Music.jpg");
+	
+}
+
+
+
+.FeaturedPost > div:first-of-type {
+	height: 100%;
+	background-image:  url("../images/Music5.jpg")
+	
+	
+	
+}
+
+.FeaturedPost p {
+	text-align: left;
+	color:black;
+	font-weight: bold;
+}
+
+.FeaturedPost h3 {
+	padding-top: 25px;
+	font-weight: bold;
+}
+
+.content {
+	padding: 10px;
+	color: darkslateblue;
+}
+
+.playArtist {
+	margin-bottom: 20px;
+	background-color:purple;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-size:17px;
+	padding:10px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #444b43;
+}
+
+.playArtist:hover {
+	background-color:darkblue;
+}
+.playArtist:active {
+	position:relative;
+	top:1px;
+}
+
+body {
+
+background-image: url("../images/Music.jpg")
+
+}

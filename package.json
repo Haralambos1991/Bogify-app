@@ -1,0 +1,28 @@
+{
+  "name": "spotifyblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "seed": "node scripts/seedDB.js",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@pusher/chatkit-client": "^1.4.1",
+    "@pusher/chatkit-server": "^1.1.0",
+    "cosmicjs": "^3.2.14",
+    "lodash.chunk": "^4.2.0",
+    "lodash.flatten": "^4.4.0",
+    "lodash.uniq": "^4.5.0",
+    "spotify-web-api-js": "^1.2.0"
+  }
+}

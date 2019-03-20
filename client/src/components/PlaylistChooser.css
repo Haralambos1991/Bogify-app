@@ -1,0 +1,45 @@
+.PlaylistChooser {
+	height: 100%;
+	width:100%;
+	max-width:800px; 
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	justify-content: space-around;
+	width: '100%';
+    max-width: 360;
+    position: 'relative';
+}
+
+.PlaylistChooser h1 {
+	padding-top: 25px;
+}
+
+ul {
+	align-self: center;
+	max-height: 500px;
+	overflow: auto;
+}
+
+.playNowButton {
+	max-width: 75%;
+	align-self: center;
+	padding: 10px 31px;
+}
+
+.optionsSelection {
+  flex: 1 1 auto;
+  background-color: 'inherit';
+  padding: 0;
+  padding-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.playlistViewer {
+  height: 200px;
+  overflow: auto;
+  flex: 2 1 auto;
+  background-color: inherit;
+}
