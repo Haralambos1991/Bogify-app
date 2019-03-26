@@ -9,7 +9,7 @@ import MessageList from './MessageList';
 import SendMessageForm from './SendMessageForm';
 import Chatkit from '@pusher/chatkit-server';
 import { ChatManager, TokenProvider } from '@pusher/chatkit-client';
-import SearchList from './SearchList'
+//import SearchList from './SearchList'//
 
 const testToken = "https://us1.pusherplatform.io/services/chatkit_token_provider/v1/c6c5bd0a-a34a-43ad-9ab8-1d4eb52dc5e9/token";
 const instanceLocator = "v1:us1:c6c5bd0a-a34a-43ad-9ab8-1d4eb52dc5e9";
@@ -100,12 +100,7 @@ class App extends Component {
         </div>
         <div className="otherPosts SearchList">
           <OtherPosts allPosts={this.state.posts} otherPosts={this.state.otherPosts} changeFeaturedPost={(index) => this.changeFeaturedPost(index)} />
-          <SearchList  Songid = {this.state.songId}
-         Albumid = {this.state.albumId}
-         Artistid = {this.state.ArtistId} />
-         </div>
-        
-        
+   </div>
         <div className="chatRoom">
           <Title />
           <MessageList 
