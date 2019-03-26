@@ -1,6 +1,5 @@
-https://quiet-wave-99903.herokuapp.com/
 
-![screenshot](bogify-screenshot.png)
+
 
 # bogify_app
 
