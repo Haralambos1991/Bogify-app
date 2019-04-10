@@ -7,14 +7,13 @@ import * as CosmicFunctions from '../cosmicFunctions';
 import Title from './Title';
 import MessageList from './MessageList';
 import SendMessageForm from './SendMessageForm';
-import Chatkit from '@pusher/chatkit-server';
+
 import { ChatManager, TokenProvider } from '@pusher/chatkit-client';
 //import SearchList from './SearchList'//
 
 const testToken = "https://us1.pusherplatform.io/services/chatkit_token_provider/v1/c6c5bd0a-a34a-43ad-9ab8-1d4eb52dc5e9/token";
 const instanceLocator = "v1:us1:c6c5bd0a-a34a-43ad-9ab8-1d4eb52dc5e9";
 const roomId = "30409029";
-const username = "bogify";
 
 class App extends Component {
 
